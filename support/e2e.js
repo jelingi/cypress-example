@@ -1,0 +1,1 @@
+import 'cypress-xray-junit-reporter/support'
