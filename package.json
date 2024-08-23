@@ -23,13 +23,12 @@
     ]
   },
   "scripts": {
-    "cy": "cypress",
-    "open": "npm run cy open",
-    "test": "npm run cy run -- -q --headed",
-    "headless": "npm run cy run -- -q",
-    "home": "npm run cy run -- --spec specs/homePageSpec.js",
+    "open": "npx cypress open",
+    "test": "npx cypress run -q --headed",
+    "headless": "npx cypress run -q",
+    "home": "npx cypress run -s cypress/e2e/homePage.cy.js",
     "pretty": "standard --fix",
-    "ci": "npm run cy run -- -q"
+    "ci": "npx cypress run -q"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.1.2",
