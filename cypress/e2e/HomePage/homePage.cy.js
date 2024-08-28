@@ -1,4 +1,4 @@
-import homePage from '../cypress/e2e/pages/homePage'
+import homePage from '../pages/HomePage/homePage'
 
 describe('Home Page', () => {
   beforeEach(() => {
